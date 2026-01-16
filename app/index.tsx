@@ -1,4 +1,5 @@
 import { Ionicons } from "@expo/vector-icons";
+import React from "react";
 import { FlatList, SafeAreaView, StyleSheet, Text, View } from "react-native";
 
 const DATA = [
@@ -86,11 +87,12 @@ const styles = StyleSheet.create({
     fontWeight: "600",
     borderBottomWidth: 1,
     borderBottomColor: "#eee",
+    paddingTop: 15,
   },
 
   item: {
     flexDirection: "row",
-    backgroundColor: "#fff",
+    backgroundColor: "#b6e4f5",
     paddingVertical: 20,
     paddingHorizontal: 18,
     borderBottomWidth: 1,
@@ -109,7 +111,7 @@ const styles = StyleSheet.create({
   },
 
   title: {
-    fontSize: 16,
+    fontSize: 30,
     fontWeight: "600",
     marginBottom: 6,
   },
